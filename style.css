@@ -360,7 +360,8 @@ button.sgds-button.is-secondary:hover {
     padding: 15px;
 }
 .home-dom-all {
-    padding-top: 75px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 .home-dom-inner {
     text-align: center;
@@ -526,7 +527,8 @@ a.sgds-accordion-header h5
     width: 58%;
 }
 .home-sound-all {
-    padding-top: 75px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 .home-sound-inner h2
 {
@@ -582,7 +584,7 @@ a.sgds-accordion-header h5
     transform: scale(1.05);
 }
 .home-career-all {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 .home-career-inner {
     text-align: center;
@@ -700,7 +702,7 @@ a.full-link {
 
 h6.footer-logo {
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 30%;
     text-transform: uppercase;
     font-size: 16px;
@@ -2200,7 +2202,7 @@ p.enquiry {
         .vision-left-inner h2{line-height: 40px;}
         .vision-right.carrer-requirement-right-inners p {padding-bottom: 15px;line-height: 20px;}
         .home-dom-title-inner.our-people-dom-title h2, .home-dom-title-inner.our-people-dom-title p {font-size: 25px;}
-        .home-dom-inner-all{height: 350px;background-color: #efefef;}
+        .home-dom-inner-all{height: 380px;background-color: #efefef;}
         .sgds-container {width: 100%;max-width: 95%;}
         .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 21px;}
         .dom-img-all.our-dom-img-all.our-people {width: 92%;}
@@ -2298,6 +2300,7 @@ p.enquiry {
         .dom-img-all.our-dom-img-all.our-people {width: 98%;}
         .dom-top-all {padding-bottom: 70px;}
         .home-music-acc-all.our-people .home-music-acc-img.ourpeople-acc-img {height: 86px;}
+        div#mainnav-4 {padding-top: 0px;}
 
 
     }
@@ -2318,7 +2321,7 @@ p.enquiry {
     }
     @media (max-width: 783px) and (min-width: 768px)
     {
-.home-dom-inner-all{height: auto;background-color: #efefef;}
+.home-dom-inner-all{background-color: #efefef;}
     }
 
     /* iPads (landscape) ----------- */ 
@@ -2449,7 +2452,9 @@ p.enquiry {
         .home-career-sec-inner-all {float: none;width: 100%;}
         .home-aboutus-all,.home-about-img-all,.home-people-all,.home-people-inner,.home-dom-all,.home-musician-all,
         .home-musician-inner,.home-sound-all,.home-career-all,.home-career-inner,.home-sound-content,.home-people-inner-left h2{padding-top: 40px;}
+        .home-sound-all{padding-top: 80px;}
         .home-people-inner,.home-accordiation-all{padding-bottom: 40px;}
+        .home-people-inner-left{padding-top: 0px;}
         .home-sound-link{padding-top: 30px;}
         .home-aboutus-inner h2,.home-people-inner-left h2,.home-dom-inner h2,.home-musician-inner h2,.home-sound-inner h2,.home-career-inner h2,
         .physical-requirements-inner h2{font-size: 34px;letter-spacing: 1px;padding-bottom: 10px;text-align: center;line-height: 35px;}
@@ -2618,4 +2623,9 @@ p.enquiry {
         padding-left: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .dom-container {
+        width: 60%;
+        margin: 0 auto;
     }
