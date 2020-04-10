@@ -447,6 +447,11 @@ button.sgds-button.is-secondary:hover {
 {
     display: block !important;
 }
+
+.owl-dot {
+    display: none;
+}
+
 .home-musician-inner {
     padding-top: 70px;
 }
@@ -539,7 +544,7 @@ a.sgds-accordion-header h5
     text-align: center;
 }
 .home-sound-inner-all {
-    padding-top: 70px;
+    padding-top: 30px;
 }
 .home-sound-content h5 {
     font-family: 'helveticabold';
@@ -2221,7 +2226,8 @@ p.enquiry {
     {
         .eligible-requirement-all .career-stories-inner-right p {text-align: center;}
         .home-career-sec-bg img {width: 100%;}
-        .home-career-sec-inner-all{float: left;width: 50%;}
+        .home-career-sec-inner-all{float: left;width: 100%;}
+        .new-home-career-container{padding-left: 12%; padding-right: 12%; margin-bottom: 30px;}
         .career-stories-inner-left{float: none;width: 100%;}
         .career-stories-inner-right{float: none;width: 100%;}
         .eligible-requirement-all .career-opportunities-inner-all{padding-bottom: 50px;}
@@ -2258,6 +2264,7 @@ p.enquiry {
         .home-sound-content{padding-top: 20px;}
         .home-about-inner-left, .home-about-inner-right {float: none;width: 75%;margin: 0 auto;overflow: hidden;margin-bottom: 20px;}
         .home-career-sec-inner {padding: 10px;}
+        .home-career-sec-inner p{height: auto;}
         .navbar-item, .navbar-link {display: block;}
         a.navbar-link.is-uppercase {margin-left: 0;}
         .margin--top--sm{border: 1px solid #d80d19;display: none;}
@@ -2357,7 +2364,7 @@ p.enquiry {
     { 
         .banner-inner {width: 40%;}
         .home-career-sec-bg img{width: 100%;}
-        .home-career-sec-inner-all{width: 50%;}
+        .home-career-sec-inner-all{width: 100%;}
         .home-sound-img, .home-sound-content{width: 48%;}
         .home-sound-content p {line-height: 26px;}
         .main-timeline .timeline:before{ display: none; }
