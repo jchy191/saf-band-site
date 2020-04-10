@@ -1316,11 +1316,17 @@ display: table-cell;
     float: left;
     width: 48%;
     overflow: hidden;
+    margin-top: 50px;
+    padding-left: 10px;
 }
+.oursound-video-left iframe {width: 100%; min-height: 300px;}
+
 .oursound-video-right {
     float: right;
     width: 48%;
     padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 .oursound-video-right h5 {
     font-family: 'helveticabold';
@@ -1328,11 +1334,10 @@ display: table-cell;
     color: #a80025;
 }
 .oursound-video-right p {
-    line-height: 33px;
     font-family: 'helveticaregular';
     color: #232323;
     font-size: 16px;
-    text-align: justify;    
+    text-align: center;    
     padding-top: 20px;
 }
 .sound-video-section-all
@@ -1363,7 +1368,7 @@ display: table-cell;
     display: none;
 }
 .oursound-video-inner-all {
-    padding-top: 65px;
+    padding-top: 25px;
 }
 .oursound-national-img {
     float: right;
@@ -1590,13 +1595,14 @@ display: table-cell;
 .oursound-video-center {
     clear: both;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .oursound-video-center h5
 {
     font-family: 'helveticabold';
     font-size: 26px;
     color: #a80025;
+    padding-top: 50px;
 }
 .oursound-video-center p
 {
@@ -2186,7 +2192,7 @@ p.enquiry {
         .main-timeline:before{height: 86%;}
         .career-stories-inner-left.major-section-all-left{padding-top: 50px;}
         .home-accordiation-all{width: 95%;}
-        .oursound-video-left iframe {width: 100%;}
+        .oursound-video-left iframe {width: 100%; min-height: 300px;}
         .about-central-right{padding-top: 0px;}
         .about-central-right a:hover {color: #ffffff;background-color: #a90025;}
         .home-career-sec-inner h6{padding-bottom: 10px;}
@@ -2301,6 +2307,10 @@ p.enquiry {
         .dom-top-all {padding-bottom: 70px;}
         .home-music-acc-all.our-people .home-music-acc-img.ourpeople-acc-img {height: 86px;}
         div#mainnav-4 {padding-top: 0px;}
+        .oursound-video-center{padding-top: 20px;}
+        .oursound-video-center h5{padding-top: 20px;}
+        .oursound-video-inner-all{padding-top: 30px;}
+        .oursound-video-left{padding-left: 10px; padding-right: 10px;}
 
 
     }
@@ -2481,9 +2491,11 @@ p.enquiry {
         .dom-img-left{float: none;width: 100%;margin: 0 auto;padding-right: 0px;}
         .dom-img-right{float: none;width: 100%;margin: 0 auto;padding-left: 0px;}
         .dom-top-all {padding-bottom: 0;}
-        .oursound-video-left iframe {width: 100%;}
+        .oursound-video-left iframe {width: 100%; min-height: 300px; padding-left: 10px; padding-right: 10px;}
         .oursound-video-left{float: none;width: 100%;margin: 0 auto;}
         .oursound-video-right{float: none;width: 100%;margin: 0 auto;}
+        .oursound-video-center h5 {padding-top: 0px;}
+        .oursound-video-center {padding-top: 0px;}
         .sound-video-section-all{padding-top: 40px;padding-bottom: 20px;}
         .home-people-bg.ourpeople-bg{padding-top: 10px;padding-bottom: 50px;}
         .oursound-national-img{float: none;margin: 0 auto;text-align: center;}
@@ -2555,7 +2567,8 @@ p.enquiry {
         .about-central-inner-all {padding-top: 40px;padding-bottom: 50px;}
         .about-history-inner {padding-top: 40px;padding-bottom: 40px;}
         .oursound-video-inner-all {padding-top: 30px;}
-        .oursound-video-right{padding-top: 40px;}
+        .oursound-video-right{padding-top: 30px; padding-bottom: 80px;}
+        .oursound-video-center{padding-bottom: 0px;}
         .home-sound-inner-all {padding-top: 30px;}
         .home-career-sec-all{padding-top: 40px;}
         .our-people-inn-cont {padding-top: 30px;}
@@ -2628,4 +2641,8 @@ p.enquiry {
     .dom-container {
         width: 60%;
         margin: 0 auto;
+    }
+
+    .career-header {
+        padding-bottom: 50px;
     }
