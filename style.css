@@ -102,6 +102,7 @@ a.navbar-item.is-active, a.navbar-link.is-active {
 div#mainnav-4 {
     padding-top: 45px;
 }
+
 span.sgds-icon.sgds-icon-search.search-icon {
     width: 0;
 }
@@ -838,10 +839,14 @@ border-radius: 20px !important;
     letter-spacing: 2px;
 }
 .vision-all {
-    padding-top: 88px;
+    padding-top: 40px;
 }
 .vision-left-inner {
     padding-top: 35px;
+}
+.mission {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .vision-left {
     float: left;
@@ -1236,7 +1241,7 @@ display: table-cell;
 }
 .dom-img-left {
    display: inline-block;
-    width: 48%;
+    width: 45%;
     clear: both;
     padding-right: 20px;
 }
@@ -1251,7 +1256,7 @@ display: table-cell;
 }
 .dom-img-right {
     display: inline-block;
-    width: 48%;
+    width: 45%;
     clear: both;
     padding-left: 20px;
 }
@@ -2091,7 +2096,7 @@ table.table-career th {
     padding-top: 45px;
 }
 .home-dom-title-inner.our-people-dom-title.people h2 {
-    font-size: 25px;
+    font-size: 23px;
 }
 .home-dom-title-inner.our-people-dom-title.people {
     width: 95%;
@@ -2174,7 +2179,7 @@ p.enquiry {
         .navbar>.sgds-container .navbar-brand, .sgds-container>.navbar .navbar-brand{margin-left: 0px;}
         .home-dom-inner-all{height: 385px;background-color: #efefef;}
         .sgds-container {max-width: 95%;width: 100%;}
-        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 22px;}
+        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 18px;}
         .dom-top-all {padding-bottom: 70px;}
 
     }
@@ -2216,7 +2221,7 @@ p.enquiry {
         .home-dom-inner-all{height: 380px;background-color: #efefef;}
         .sgds-container {width: 100%;max-width: 95%;}
         .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 21px;}
-        .dom-img-all.our-dom-img-all.our-people {width: 92%;}
+        .dom-img-all.our-dom-img-all.our-people {width: 98%;}
         .dom-top-all {padding-bottom: 70px;}
         footer.sgds-footer.top-section{padding: 0px;}
 
@@ -2270,8 +2275,8 @@ p.enquiry {
         .margin--top--sm{border: 1px solid #d80d19;display: none;}
         .about-content p{width: 95%;font-size: 16px;}
         .main-timeline:before{height: 86%;}
-        .home-dom-title-inner.our-people-dom-title h2 {font-size: 21px;}
-        .home-dom-title-inner.our-people-dom-title p {font-size: 18px;}
+        .home-dom-title-inner.our-people-dom-title h2 {font-size: 16px; line-height: normal;}
+        .home-dom-title-inner.our-people-dom-title p {font-size: 16px;}
         .home-music-acc-img.ourpeople-acc-img{width: 44%;}
         .title-cont{bottom: 5px;}
         .home-accord-link{padding-bottom: 20px;}
@@ -2303,13 +2308,13 @@ p.enquiry {
         .vision-left-inner.our-people-sep h3{line-height: 30px;padding-bottom: 10px;padding-top: 10px;}
         .home-dom-inner-all{height: 330px;background-color: #efefef;}
         footer.sgds-footer.top-section .footer-left {padding-bottom: 7px;}
-        .dom-img-all.our-dom-img-all{width: 95%;}
+        .dom-img-all.our-dom-img-all{width: 98%;}
         .banner-inner{widows: 30%;padding-left: 50px;}
         .banner-inner h4{font-size: 18px;}
         .footer-right{float: none;padding-top: 0px;padding-bottom: 20px;}
         footer.sgds-footer.top-section .footer-left{padding-bottom: 0px;}
         .row.is-vcentered.divider ul li:first-child {padding-bottom: 10px;}
-        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 16px;}
+        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 14px;}
         .dom-img-all.our-dom-img-all.our-people {width: 98%;}
         .dom-top-all {padding-bottom: 70px;}
         .home-music-acc-all.our-people .home-music-acc-img.ourpeople-acc-img {height: 86px;}
@@ -2356,12 +2361,16 @@ p.enquiry {
         .banner-inner-all.home-banner-inner-all{padding-top: 250px;padding-bottom: 30px;}
         .banner-inner{padding-left: 40px;padding-top: 30px;padding-bottom: 30px;}
         .banner-inner:before {border-top: 240px solid rgba(169, 0, 37, 0.9);}
+        .home-dom-inner-title p{font-size: 16px;}
+
 
     } 
 
     /* iPads (Portrait) ----------- */ 
-    @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait)
+    @media only screen and (min-device-width:768px) and (max-device-width:1026px) and (orientation:portrait)
     { 
+        .navbar-brand {width: 20%;}
+
         .banner-inner {width: 40%;}
         .home-career-sec-bg img{width: 100%;}
         .home-career-sec-inner-all{width: 100%;}
@@ -2386,6 +2395,7 @@ p.enquiry {
         .main-timeline .timeline:nth-child(even) .about-img-all:after{display: none;}
         .home-dom-title-inner{width: 95%;}
         .home-dom-inner-title h2{font-size: 16px;}
+        .home-dom-inner-title p{font-size: 16px;}
         .footer-left {width: 100%;float: none;}
         h6.footer-logo {position: static;padding-bottom: 10px;display: block;font-size: 16px;}
         /*.sgds-footer ul li{border-right: unset;}*/
@@ -2414,6 +2424,7 @@ p.enquiry {
         .home-sound-img {float: left;width: 48%;}
         .home-sound-content {float: right;width: 48%;}
         .home-sound-img iframe{width: 100%;}
+        .home-dom-inner-title p{font-size: 16px;}
         .vision-all.carrer-requirement-all{padding-bottom: 0px;}
         .career-opportunities-inner-all{padding-top: 40px;}
         .vision-all.carrer-requirement-all{padding-top: 40px;}
@@ -2436,10 +2447,12 @@ p.enquiry {
         .banner-inner-all.home-banner-inner-all {padding-top: 360px;padding-bottom: 20px;}
         .banner-inner h2{padding-bottom: 0px;}
         .banner-inner {width: 40%;}
+        .home-dom-inner-title p{font-size: 16px;}
     }
     /*Mobile Phones*/ 
     @media (max-width: 767px) 
     {
+        
         div#mainnav-4 {padding-top: 0px;}
         .sgds-container{width: 95%;}
         .sgds-masthead .is-text{font-size: 14px;}
@@ -2465,6 +2478,8 @@ p.enquiry {
         .home-people-container,.home-accordiation-all {width: 100%;}
         .home-music-acc-img,.home-music-acc-cont,.home-sound-img,.home-sound-content {float: none;width: 100%;}
         .home-accord-link{padding-bottom: 15px;}
+        .home-dom-inner-title h2{font-size: 18px;}
+        .home-dom-inner-title p{font-size: 14px;}
         .home-career-inner p,.home-aboutus-inner p,.home-dom-inner p,.home-musician-inner p{width: 100%;}
         .home-career-sec-inner-all {float: none;width: 100%;}
         .home-aboutus-all,.home-about-img-all,.home-people-all,.home-people-inner,.home-dom-all,.home-musician-all,
@@ -2495,8 +2510,8 @@ p.enquiry {
         .home-music-acc-img.ourpeople-acc-img{width: 100%;margin: 0 auto;}
         .ourpeople-accor-right {float: none;width: 100%;margin-top: 5px;}
         .ourpeople-accor-left {float: none;width: 100%;}
-        .dom-img-left{float: none;width: 100%;margin: 0 auto;padding-right: 0px;}
-        .dom-img-right{float: none;width: 100%;margin: 0 auto;padding-left: 0px;}
+        .dom-img-left{float: none;width: 60%;margin: 0 auto;padding-right: 0px;}
+        .dom-img-right{float: none;width: 60%;margin: 0 auto;padding-left: 0px;}
         .dom-top-all {padding-bottom: 0;}
         .oursound-video-left iframe {width: 100%; min-height: 300px; padding-left: 10px; padding-right: 10px;}
         .oursound-video-left{float: none;width: 100%;margin: 0 auto;}
@@ -2533,9 +2548,9 @@ p.enquiry {
         .about-central-left {text-align: center;}
         .vision-right{text-align: center;}
         .vision-right.carrer-requirement-right-inners{text-align: left;}
-        .dom-img-all.our-dom-img-all {width: 100%;}
-        .home-dom-title-inner.our-people-dom-title h2{font-size: 20px;line-height: normal;}
-        .home-dom-title-inner.our-people-dom-title p{font-size: 16px;}
+        .dom-img-all.our-dom-img-all {width: 50%;}
+        .home-dom-title-inner.our-people-dom-title.people h2{font-size: 20px;line-height: normal;}
+        .home-dom-title-inner.our-people-dom-title.people p{font-size: 18px;}
         .banner_content {position: static;}
         .main-timeline .timeline{height: auto;}
         .owl-theme .owl-dots .owl-dot span{margin: 5px !important;}
@@ -2599,7 +2614,15 @@ p.enquiry {
         .home-dom-slider-all.home-dom-mob-slide{display: block;}
         .oursound-national-img{width: 100%;}
         .vision-left.sound-anthem-left {width: 100%;}
-       
+    }
+
+    @media(max-width: 450px) {
+        .home-dom-inner-title h2{font-size: 14px;}
+        .home-dom-inner-title p{font-size: 14px; line-height: 20px;}
+        .home-dom-title-inner.our-people-dom-title.people h2{font-size: 16px;line-height: normal;}
+        .home-dom-title-inner.our-people-dom-title.people p{font-size: 14px;}
+    }
+
         /*contact us page*/
     .contactus-page-map{position: static;}
     .contactus-page-inner{height: auto;}
@@ -2653,3 +2676,4 @@ p.enquiry {
     .career-header {
         padding-bottom: 50px;
     }
+
