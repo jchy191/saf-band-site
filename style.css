@@ -139,8 +139,8 @@ button.sgds-button.is-secondary:hover {
     transform: scale(1.05);
 }
 .banner-inner-all {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 .banner-inner {
     background: rgba(169, 0, 37, 0.9);
@@ -843,6 +843,7 @@ border-radius: 20px !important;
 }
 .vision-left-inner {
     padding-top: 35px;
+    width: 90%;
 }
 .mission {
     margin-top: 30px;
@@ -886,6 +887,7 @@ border-radius: 20px !important;
     line-height: 28px;
     letter-spacing: 0.8px;
     padding-top: 10px;
+    text-align: justify;
 }
 .about-central-all {
     clear: both;
@@ -1261,12 +1263,12 @@ display: table-cell;
     padding-left: 20px;
 }
 .home-dom-title-inner.our-people-dom-title h2 {
-    font-size: 29px;
+    font-size: 20px;
     line-height: 35px;
 }
 .home-dom-title-inner.our-people-dom-title p
 {
-    font-size: 20px;
+    font-size: 17px;
 }
 .home-dom-inner-all.people-dom-inner-all {
     margin-bottom: 50px;
@@ -1460,11 +1462,11 @@ display: table-cell;
 .career-stories-inner-right {
     float: right;
     width: 48%;
-    padding-top: 46px;
+    padding-top: 10px;
 }
-.career-stories-inner-left img, .career-stories-inner-right.major-section-all-right img, .eligibility-career img {
+/*.career-stories-inner-left img, .career-stories-inner-right.major-section-all-right img, .eligibility-career img {
     width: 100%;
-}
+}*/
 .career-stories-inner-right h5
 {
     color: #a90025;
@@ -2096,13 +2098,13 @@ table.table-career th {
     padding-top: 45px;
 }
 .home-dom-title-inner.our-people-dom-title.people h2 {
-    font-size: 17px;
+    font-size: 14px;
 }
 .home-dom-title-inner.our-people-dom-title.people {
     width: 95%;
 }
 .dom-img-all.our-dom-img-all.our-people {
-    width: 70%;
+    width: 60%;
 }
 .career-page-link p {
     color: #232323;
@@ -2175,12 +2177,12 @@ p.enquiry {
         .main-timeline{width: 100%;}
         .about-content p{font-size: 16px;}
         .home-dom-title-inner.our-people-dom-title p {font-size: 25px;}
-        .home-dom-title-inner.our-people-dom-title.people p {font-size: 20px;}
+        .home-dom-title-inner.our-people-dom-title.people p {font-size: 16px;}
         .home-about-img p{height: 130px;}
         .navbar>.sgds-container .navbar-brand, .sgds-container>.navbar .navbar-brand{margin-left: 0px;}
         .home-dom-inner-all{height: 385px;background-color: #efefef;}
         .sgds-container {max-width: 95%;width: 100%;}
-        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 16px;}
+        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 13px;}
         .dom-top-all {padding-bottom: 70px;}
 
     }
@@ -2262,7 +2264,7 @@ p.enquiry {
         .navbar-burger.burger span {color: #fff !important;}
         .navbar-brand {width: 100%;}
         .banner-inner{width: 39%;}
-        .banner-inner-all{padding-top: 300px;}
+        .banner-inner-all{padding-top: 100px; padding-bottom: 100px;}
         .banner-inner h2{width: 100%;letter-spacing: 1px;font-size: 48px;}
         .banner-inner h4{width: 100%;}
         .banner-inner:before{border-top: 346px solid rgba(169, 0, 37, 0.9);}        
@@ -2314,9 +2316,9 @@ p.enquiry {
         .footer-right{float: none;padding-top: 0px;padding-bottom: 20px;}
         footer.sgds-footer.top-section .footer-left{padding-bottom: 0px;}
         .row.is-vcentered.divider ul li:first-child {padding-bottom: 10px;}
-        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 12px;}
-        .home-dom-title-inner.our-people-dom-title.people p {font-size: 16px;}
-        .dom-img-all.our-dom-img-all.our-people {width: 82%;}
+        .home-dom-title-inner.our-people-dom-title.people h2 {font-size: 10px;}
+        .home-dom-title-inner.our-people-dom-title.people p {font-size: 14px;}
+        .dom-img-all.our-dom-img-all.our-people {width: 75%;}
         .dom-top-all {padding-bottom: 70px;}
         .home-music-acc-all.our-people .home-music-acc-img.ourpeople-acc-img {height: 86px;}
         div#mainnav-4 {padding-top: 0px;}
@@ -2493,6 +2495,7 @@ p.enquiry {
         .physical-requirements-inner h2{font-size: 34px;letter-spacing: 1px;padding-bottom: 10px;text-align: center;line-height: 35px;}
         .home-people-inner-left p,.home-musician-inner p,.home-sound-content p{text-align: center;}
         .vision-left-inner h2,.about-central-inner h2{font-size: 34px;letter-spacing: 1px;line-height: 35px;}
+        .vision-left-inner {width: 100%;}
         .home-sound-content h5{text-align: center;}
         .home-people-link {text-align: center;}
         .home-career-sec-inner img{width: 100%;}
@@ -2550,7 +2553,7 @@ p.enquiry {
         .vision-right{text-align: center;}
         .vision-right.carrer-requirement-right-inners{text-align: left;}
         .dom-img-all.our-dom-img-all {width: 70%;}
-        .dom-container-2 {width: 60%;}
+        .dom-container-2 {width: 90%;}
         .home-dom-title-inner.our-people-dom-title.people h2{font-size: 16px;line-height: normal;}
         .home-dom-title-inner.our-people-dom-title.people p{font-size: 16px;}
         .banner_content {position: static;}
@@ -2620,7 +2623,7 @@ p.enquiry {
 
     @media(max-width: 600px) {
         .dom-img-all.our-dom-img-all.dom-container {width: 100%;}
-        .dom-container-2 {width: 60%;}
+        .dom-container-2 {width: 70%;}
     }
 
     @media(max-width: 450px) {
@@ -2628,7 +2631,7 @@ p.enquiry {
         .home-dom-inner-title p{font-size: 14px; line-height: 20px;}
         .home-dom-title-inner.our-people-dom-title.people h2{font-size: 16px;line-height: normal;}
         .home-dom-title-inner.our-people-dom-title.people p{font-size: 14px;}
-        .dom-container-2 {width: 80%;}
+        .dom-container-2 {width: 70%;}
         .dom-img-all.our-dom-img-all {width: 90%;}
     }
 
@@ -2686,3 +2689,9 @@ p.enquiry {
         padding-bottom: 50px;
     }
 
+    .our-people-carousel {
+        margin-top: 150px;
+    }
+    .our-people-dom {
+        padding-bottom: 50px;
+    }
