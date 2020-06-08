@@ -2102,6 +2102,7 @@ table.table-career th {
 .footer-right {
     float: right;
     padding-top: 45px;
+    text-align: right;
 }
 .home-dom-title-inner.our-people-dom-title.people h2 {
     font-size: 14px;
@@ -2462,7 +2463,7 @@ p.enquiry {
     /*Mobile Phones*/ 
     @media (max-width: 767px) 
     {
-        
+        .footer-right{float: none;padding-top: 0px;padding-bottom: 20px;}
         div#mainnav-4 {padding-top: 0px;}
         .sgds-container{width: 95%;}
         .sgds-masthead .is-text{font-size: 14px;}
@@ -2645,7 +2646,7 @@ p.enquiry {
         /*contact us page*/
     .contactus-page-map{position: static;}
     .contactus-page-inner{height: auto;}
-    .contactus-address{position: static;padding-left: 25px;width: 100%;}
+    .contactus-address{position: absolute;padding-left: 25px;}
     .section-title.terms-of-use-section-title.contactus-heading p{width: 90%;margin: 0 auto;line-height: 24px;}
 
     /*Terms of use*/
@@ -2665,10 +2666,9 @@ p.enquiry {
      .notfound-page-row h4{line-height: 32px;padding-bottom: 15px;padding-top: 20px;}
      .notfound-page-row h3{line-height: 40px;}
      .navbar>.sgds-container .navbar-brand, .sgds-container>.navbar .navbar-brand{margin-left: 0;}
-     .footer-left img {width: 24%;}
      .medical-fits {width: 100%;overflow-x: scroll;}
      table.table-career {width: 638px;}
-     .footer-right{float: none;padding-top: 0px;padding-bottom: 20px;}
+     .footer-right{float: none;padding-bottom: 20px;}
      footer.sgds-footer.top-section .footer-left{padding-bottom: 0px;}
      .home-about-img p {height: auto;}
      .sgds-footer ul li+li:not(.icons) {margin-left: 0px;}
