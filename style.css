@@ -142,11 +142,17 @@ button.sgds-button.is-secondary:hover {
     padding-top: 130px;
     padding-bottom: 130px;
 }
+
+.banner-inner-all .home-banner-inner-all {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 .banner-inner {
     background: rgba(169, 0, 37, 0.9);
     padding-top: 55px;
     padding-bottom: 65px;
-    padding-left: 100px;
+    padding-left: 50px;
     width: 30%;
     position: relative;
 }
@@ -156,12 +162,12 @@ button.sgds-button.is-secondary:hover {
     top: 0px;
     left: 100%;
     border-top: 348px solid rgba(169, 0, 37, 0.9);
-    border-right: 195px solid transparent;
+    border-right: 80px solid transparent;
 
 }
 .banner-inner h2 {
     color: #fff;
-    font-size: 65px;
+    font-size: 60px;
     font-family: 'helveticabold';
     letter-spacing: 5px;
     padding-bottom: 20px;
@@ -169,7 +175,7 @@ button.sgds-button.is-secondary:hover {
 }
 .banner-inner h4 {
     color: #fff;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 2px;
     width: 35%;
     font-family: 'helveticaregular';
@@ -2163,7 +2169,7 @@ p.enquiry {
         .banner-inner{width: 30%;padding-left: 50px;}
         .banner-inner:before{border-top: 345px solid rgba(169, 0, 37, 0.9);}
         .banner-inner h2{width: 100%;font-size: 58px;}
-        .banner-inner h4{width: 100%;font-size: 23px;letter-spacing: 1px;}
+        .banner-inner h4{width: 100%;font-size: 20px;letter-spacing: 1px;}
         a.navbar-link.is-uppercase {margin-left: 8px;}
         .navbar-brand {width: 40%;}
         .home-accord-link{padding-bottom: 20px;}
@@ -2236,7 +2242,7 @@ p.enquiry {
         .eligible-requirement-all .career-stories-inner-right p {text-align: center;}
         .home-career-sec-bg img {width: 100%;}
         .home-career-sec-inner-all{float: left;width: 100%;}
-        .new-home-career-container{padding-left: 12%; padding-right: 12%; margin-bottom: 30px;}
+        .new-home-career-container{padding-left: 20%; padding-right: 20%; margin-bottom: 30px;}
         .career-stories-inner-left{float: none;width: 100%;}
         .career-stories-inner-right{float: none;width: 100%;}
         .eligible-requirement-all .career-opportunities-inner-all{padding-bottom: 50px;}
@@ -2265,6 +2271,7 @@ p.enquiry {
         .navbar-brand {width: 100%;}
         .banner-inner{width: 39%;}
         .banner-inner-all{padding-top: 100px; padding-bottom: 100px;}
+        .banner-inner-all.home-banner-inner-all{padding-top: 300px; padding-bottom: 100px;}
         .banner-inner h2{width: 100%;letter-spacing: 1px;font-size: 48px;}
         .banner-inner h4{width: 100%;}
         .banner-inner:before{border-top: 346px solid rgba(169, 0, 37, 0.9);}        
