@@ -143,7 +143,7 @@ button.sgds-button.is-secondary:hover {
     padding-bottom: 130px;
 }
 
-.banner-inner-all .home-banner-inner-all {
+.home-banner-inner-all {
     padding-top: 150px;
     padding-bottom: 150px;
 }
@@ -195,16 +195,15 @@ button.sgds-button.is-secondary:hover {
 .home-aboutus-all {
     padding-top: 75px;
 }
-.home-aboutus-inner {
+.home-aboutus-inner, .home-aboutus-inner-home {
     text-align: center;
 }
-.home-aboutus-inner h2 {
+.home-aboutus-inner h2, .home-aboutus-inner-home h2 {
     color: #a90025;
     font-family: 'helveticabold';
     font-size: 40px;
     letter-spacing: 2px;
     padding-bottom: 10px;
-
 }
 .home-aboutus-inner p {
     font-family: 'helveticaregular';
@@ -214,8 +213,20 @@ button.sgds-button.is-secondary:hover {
     letter-spacing: 0.8px;
     width: 90%;
     margin: 0 auto;
-
+    text-align: justify;
 }
+
+.home-aboutus-inner-home p {
+    font-family: 'helveticaregular';
+    font-size: 16px;
+    color: #232323;
+    line-height: 33px;
+    letter-spacing: 0.8px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .home-about-img-all {
     padding-top: 65px;
 }
@@ -614,6 +625,7 @@ a.sgds-accordion-header h5
 .home-career-inner p
 {
     font-family: 'helveticaregular';
+    text-align: justify;
     font-size: 16px;
     color: #232323;
     line-height: 33px;
@@ -1738,6 +1750,7 @@ padding-bottom: 18px;
 }
 .dom-img-left.peo-inn-img-left {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 .our-people-inn-cont p {
     font-family: 'helveticaregular';
@@ -2491,7 +2504,7 @@ p.enquiry {
         .home-accord-link{padding-bottom: 15px;}
         .home-dom-inner-title h2{font-size: 18px;}
         .home-dom-inner-title p{font-size: 14px;}
-        .home-career-inner p,.home-aboutus-inner p,.home-dom-inner p,.home-musician-inner p{width: 100%;}
+        .home-career-inner p,.home-aboutus-inner p, .home-aboutus-inner-home p, .home-dom-inner p,.home-musician-inner p{width: 100%;}
         .home-career-sec-inner-all {float: none;width: 100%;}
         .home-aboutus-all,.home-about-img-all,.home-people-all,.home-people-inner,.home-dom-all,.home-musician-all,
         .home-musician-inner,.home-sound-all,.home-career-all,.home-career-inner,.home-sound-content,.home-people-inner-left h2{padding-top: 40px;}
@@ -2499,7 +2512,7 @@ p.enquiry {
         .home-people-inner,.home-accordiation-all{padding-bottom: 40px;}
         .home-people-inner-left{padding-top: 0px;}
         .home-sound-link{padding-top: 30px;}
-        .home-aboutus-inner h2,.home-people-inner-left h2,.home-dom-inner h2,.home-musician-inner h2,.home-sound-inner h2,.home-career-inner h2,
+        .home-aboutus-inner h2, .home-aboutus-inner-home h2, .home-people-inner-left h2,.home-dom-inner h2,.home-musician-inner h2,.home-sound-inner h2,.home-career-inner h2,
         .physical-requirements-inner h2{font-size: 34px;letter-spacing: 1px;padding-bottom: 10px;text-align: center;line-height: 35px;}
         .home-people-inner-left p,.home-musician-inner p,.home-sound-content p{text-align: center;}
         .vision-left-inner h2,.about-central-inner h2{font-size: 34px;letter-spacing: 1px;line-height: 35px;}
@@ -2511,6 +2524,8 @@ p.enquiry {
         .main-timeline .title i{ font-size: 25px; }
         .vision-right {float: none;width: 100%;margin: 0 auto;}
         .vision-left {float: none;width: 100%;}
+        .timeline-content .about-img img{display: block;height: auto;margin: 0 auto;}
+        .about-img-all{height: auto;}
         .about-central-left,.about-central-right {float: none;width: 100%;}
         .about-central-right{padding-top: 20px;}
         .about-img{float: none;width: 100%;text-align: center;}
@@ -2519,6 +2534,7 @@ p.enquiry {
         .about-img img,.about-img.right-about-img img {border-top-left-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 0;border-bottom-right-radius: 0;width: 200px;}
         .about-content h5, .about-content.right-about-content h5{padding-right: 0px;padding-left:0;text-align: center;height: 50px;line-height: 60px;}
         .about-content p, .about-content.right-about-content p {text-align: center;padding: 5px;width: 100%;}
+        .about-img{position: static;}
         .home-music-acc-img.ourpeople-acc-img{width: 100%;margin: 0 auto;}
         .ourpeople-accor-right {float: none;width: 100%;margin-top: 5px;}
         .ourpeople-accor-left {float: none;width: 100%;}
@@ -2627,6 +2643,25 @@ p.enquiry {
         .home-dom-slider-all.home-dom-mob-slide{display: block;}
         .oursound-national-img{width: 100%;}
         .vision-left.sound-anthem-left {width: 100%;}
+
+        .sgds-footer.top-section{padding: 0.75rem 0px;}
+        footer.sgds-footer.top-section ul {padding-top: 14px;}
+        /*footer.sgds-footer.top-section .has-text-left-mobile {text-align: center !important;}*/
+        footer.sgds-footer.top-section .col.has-text-right-desktop.has-text-right-tablet.has-text-left-mobile.mobile-view {padding-top: 0px;padding-bottom: 15px;}
+        .vision-left.carrer-requirement-left h3{line-height: 32px;}
+        .eligible-requirement-all .career-stories-inner-right p{line-height: 26px;}
+        .vision-left-inner.our-people-sep h2{line-height: 36px;}
+        .vision-left-inner.our-people-sep h3{line-height: 30px;padding-bottom: 10px;padding-top: 10px;}
+        .notfound-page-row h4{line-height: 32px;padding-bottom: 15px;padding-top: 20px;}
+        .notfound-page-row h3{line-height: 40px;}
+        .navbar>.sgds-container .navbar-brand, .sgds-container>.navbar .navbar-brand{margin-left: 0;}
+        .medical-fits {width: 100%;overflow-x: scroll;}
+        table.table-career {width: 638px;}
+        .footer-right{float: none;padding-bottom: 20px;}
+        footer.sgds-footer.top-section .footer-left{padding-bottom: 0px;}
+        .home-about-img p {height: auto;}
+        .sgds-footer ul li+li:not(.icons) {margin-left: 0px;}
+   
     }
 
     @media(max-width: 600px) {
@@ -2652,28 +2687,9 @@ p.enquiry {
     /*Terms of use*/
      .mains-text{width: 85%;}
 
-     .timeline-content .about-img img{display: block;height: auto;margin: 0 auto;}
-     .about-img-all{height: auto;}
-     .sgds-footer.top-section{padding: 0.75rem 0px;}
-     footer.sgds-footer.top-section ul {padding-top: 14px;}
-     /*footer.sgds-footer.top-section .has-text-left-mobile {text-align: center !important;}*/
-     footer.sgds-footer.top-section .col.has-text-right-desktop.has-text-right-tablet.has-text-left-mobile.mobile-view {padding-top: 0px;padding-bottom: 15px;}
-     .about-img{position: static;}
-     .vision-left.carrer-requirement-left h3{line-height: 32px;}
-     .eligible-requirement-all .career-stories-inner-right p{line-height: 26px;}
-     .vision-left-inner.our-people-sep h2{line-height: 36px;}
-     .vision-left-inner.our-people-sep h3{line-height: 30px;padding-bottom: 10px;padding-top: 10px;}
-     .notfound-page-row h4{line-height: 32px;padding-bottom: 15px;padding-top: 20px;}
-     .notfound-page-row h3{line-height: 40px;}
-     .navbar>.sgds-container .navbar-brand, .sgds-container>.navbar .navbar-brand{margin-left: 0;}
-     .medical-fits {width: 100%;overflow-x: scroll;}
-     table.table-career {width: 638px;}
-     .footer-right{float: none;padding-bottom: 20px;}
-     footer.sgds-footer.top-section .footer-left{padding-bottom: 0px;}
-     .home-about-img p {height: auto;}
-     .sgds-footer ul li+li:not(.icons) {margin-left: 0px;}
 
-    }
+
+    
     /* iphone4 (Portrait) ----------- */
     @media only screen and (min-device-width : 321px) and (max-device-width : 480px) and (orientation : portrait)
     {
